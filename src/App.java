@@ -30,7 +30,7 @@ public class App {
             }
         }
 
-        System.out.println("\nFlavors with the highest votespe: ");
+        System.out.println("\nFlavors with the highest votes: ");
         for(Map.Entry<String, Integer> entry : flavorVotes.entrySet()){
             if (entry.getValue() == highestVoteCount){
                 System.out.println("- " + entry.getKey());
